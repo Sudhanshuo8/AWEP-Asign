@@ -1,0 +1,40 @@
+.html,body{
+    margin: 0;
+}
+
+.back{
+    display: flex;
+    background-image: url(https://picsum.photos/1600/900);
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+
+    
+    background-color: rgb(245, 245, 245,0.3);
+    height: 60vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    margin: auto;
+    opacity: 0.8;
+    
+
+}    
+input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+    }     
+   
+}
